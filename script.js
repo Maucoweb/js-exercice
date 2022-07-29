@@ -1,5 +1,4 @@
-
-
+alert (questions);
 
 const questions  = [
     {
