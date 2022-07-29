@@ -1,4 +1,5 @@
-alert (questions);
+
+
 
 const questions  = [
     {
@@ -24,7 +25,7 @@ const questions  = [
 
 
 for (let i = 0; i < questions.length; i +=1 ) {
-    let repUser = prompt(questions[i].question);
+    let repUser = prompt(questions[i].question)
 
     if (repUser == questions[i].reponse) {
         alert ( "Bonne réponse !");
